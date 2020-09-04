@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the plusMinus function below.
 def plusMinus(arr):
     pos , neg , zero =0 , 0 , 0
     for i in arr:

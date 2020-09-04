@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the sockMerchant function below.
 def sockMerchant(n, ar):   
     pair , i = 0,0
     ar.sort()

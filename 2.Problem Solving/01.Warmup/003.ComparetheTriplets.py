@@ -1,12 +1,10 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the compareTriplets function below.
+
 def compareTriplets(a, b):
     pa , pb = 0 , 0
     for i in range(0 , len(a)):

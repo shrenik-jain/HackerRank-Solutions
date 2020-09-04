@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the breakingRecords function below.
 def breakingRecords(scores):
     highest  , lowest = 0 , 0
     high , low = scores[0] , scores[0]

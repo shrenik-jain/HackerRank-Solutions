@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the fibonacciModified function below.
 def fibonacciModified(t1, t2, n , memo):
     if n<=2:
         return memo[n-1]

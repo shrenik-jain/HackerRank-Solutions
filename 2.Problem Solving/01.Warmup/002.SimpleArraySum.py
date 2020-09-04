@@ -1,13 +1,7 @@
-#!/bin/python3
-
-import math
 import os
-import random
-import re
 import sys
 
-# Complete the aVeryBigSum function below.
-def aVeryBigSum(ar):
+def simpleArraySum(ar):
     return sum(ar)
 
 if __name__ == '__main__':
@@ -17,7 +11,7 @@ if __name__ == '__main__':
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = aVeryBigSum(ar)
+    result = simpleArraySum(ar)
 
     fptr.write(str(result) + '\n')
 

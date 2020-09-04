@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the countingValleys function below.
 def countingValleys(n, s):
     val , sea = 0 , 0
     for i in s:
