@@ -1,8 +1,8 @@
-import math
-import os
-import random
-import re
-import sys
+'''
+Question : Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+
+Link : https://www.hackerrank.com/challenges/diagonal-difference/problem
+'''
 
 def diagonalDifference(arr,n):
     d1 , d2 = 0 , 0
@@ -16,7 +16,6 @@ def diagonalDifference(arr,n):
     return abs(d1-d2)
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input().strip())
 
@@ -27,6 +26,4 @@ if __name__ == '__main__':
 
     result = diagonalDifference(arr,n)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print(result)

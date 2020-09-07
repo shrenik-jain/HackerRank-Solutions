@@ -1,11 +1,13 @@
-import os
-import sys
+'''
+Question : Given an array of integers, find the sum of its elements.
+
+Link : https://www.hackerrank.com/challenges/simple-array-sum/problem
+'''
 
 def simpleArraySum(ar):
     return sum(ar)
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     ar_count = int(input())
 
@@ -13,6 +15,4 @@ if __name__ == '__main__':
 
     result = simpleArraySum(ar)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print(result)

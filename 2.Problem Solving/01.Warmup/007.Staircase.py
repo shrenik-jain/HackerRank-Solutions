@@ -1,8 +1,8 @@
-import math
-import os
-import random
-import re
-import sys
+'''
+Question : Write a program that prints a staircase of size n.
+
+Link : https://www.hackerrank.com/challenges/staircase/problem
+'''
 
 def staircase(n):
     for i in range(1,n+1):
