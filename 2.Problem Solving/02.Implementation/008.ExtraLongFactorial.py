@@ -1,8 +1,8 @@
-import math
-import os
-import random
-import re
-import sys
+'''
+Question : Calculate and print the factorial of a given integer n.
+
+Link : https://www.hackerrank.com/challenges/extra-long-factorials/problem
+'''
 
 def extraLongFactorials(n , memo):
     if n==1 or n==0:
@@ -22,4 +22,5 @@ if __name__ == '__main__':
     memo = [0 for _ in range(n+1)]
 
     s = extraLongFactorials(n , memo)
+    
     print(s)
