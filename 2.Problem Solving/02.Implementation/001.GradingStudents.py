@@ -7,7 +7,6 @@ Link : https://www.hackerrank.com/challenges/grading/problem
 '''
 
 def gradingStudents(grades):
-    # Write your code here
     for i in grades:
         if i%5 > 2 and i>=38:
             print(i-i%5+5)
