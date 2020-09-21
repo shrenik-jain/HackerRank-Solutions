@@ -1,6 +1,6 @@
 '''
 Question : You have a non-empty set s, and you have to execute N commands given in N lines.
-		   The commands will be pop, remove and discard.
+	   The commands will be pop, remove and discard.
 
 Link : https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem
 '''
