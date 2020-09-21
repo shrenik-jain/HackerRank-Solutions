@@ -22,3 +22,7 @@ def print_formatted(number):
         num = str(i).rjust(width, ' ')
         
         print(f'{num} {octa} {hexa} {binary}')
+
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
