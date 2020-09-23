@@ -1,4 +1,10 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+'''
+Question : You are given the lengths AB and BC.
+Your task is to find angle MBC (angle theta, as shown in the figure) in degrees.
+
+Link : https://www.hackerrank.com/challenges/find-angle/problem
+'''
+
 import math
 a = int(input())
 b = int(input())
