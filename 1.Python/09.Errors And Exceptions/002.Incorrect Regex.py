@@ -5,8 +5,6 @@ Question : You are given a string S.
 Link : https://www.hackerrank.com/challenges/incorrect-regex/problem
 '''
 
-
-
 import re
 
 t = int(input())
